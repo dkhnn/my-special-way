@@ -2,8 +2,9 @@ language: node_js
 node_js:  stable
 
 notifications:
-   slack: myspecialway:3s58KKj8R7El4OKWC1xtnZbK
-
+   slack: 
+      rooms:
+        - secure: L1G7dKwpueJYD2K/OzypvZsYGbM1DimasMi/at05S5j8tbbsSpCzng7AUtdv96n/wwf8qtui5QUKdyGe7Czer1AlkJ0SyN1cR3PaVan9hMELciVhIbsU8VDQHH0DP3bCugF069lMMtyXffZ2EqUWKG6WS23hZI9dMRvF9PI2Vb/VtGqVnNY5FwLP4Fvmn9ERmijcdsTaKq+IbGeJrXP+2LLmOl6m2vmhyAKB2GI7T0fdm1/zH49jeYjN4I0Eu1VyNm6FyxPR4BrS2JIDa+qfGkEZuyHNqURbFPXwjbp0l8C/FcKEt3VBpS343FEQjCRz083Wh7wtf+BH7ARHmovgUiqPlp9qeZjLWw1Yvfr76nDRENPE6I7ZthVhXBgqhd40Jyaq4v/RN6Ulu412xXS735BTLNl6LpxVvxyHZ9UGlWYi+PcCZxHtK2kE+P+6yZHln21o2nntmwSMrsJUIQZTQL+w+uT9F13tRT7IkbvaS+IWW42vOkf/4caaudZp4e0kpHIXL+RaZoN3nOnJsJWI9fk+WBK0Tk7mubqfxUlm8oaQKcBo46E0YWJFNeJvqLhs+DpSunObe8yk1UjmX6Gfxg947nN3rquxiLgwFuev7Q03+2BMmYSJC1mpU38hH87jvS67mK9Y3HxA/f/b8FzEBU0qVlV2Ih8GXcceldm7Otk=
 services:
   - docker
 
